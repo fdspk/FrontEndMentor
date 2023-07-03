@@ -1,0 +1,77 @@
+/*setup*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+/*config*/
+:root{
+    --color-white:#fff;
+    --color-gray:#7B879D;
+    --color-light-blue:#D6E2F0;
+    --color-dark-blue:#1F3251;
+}
+
+body{
+    height:100vh;
+    background-color: var(--color-light-blue);  
+    position:relative;
+    
+}
+
+.align-center-xy{
+   position:absolute;
+   top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+     
+}
+
+img{
+    width: 280px;
+    height: 280px;
+    display:block;
+    margin:0 auto;
+}
+
+.container{
+    width: 315px;
+    height: 484px;
+    border-radius:15px;
+    background-color:var(--color-white);
+    margin-bottom:8px;
+    padding-top:18px;
+    padding-bottom:9px;  
+}
+
+h1{
+    color:var(--color-dark-blue);
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    margin:0 30px 19px 30px;
+}
+
+p{
+    font-size:15px;
+    color: var(--color-gray);
+    font-weight: 400;
+    text-align: center;
+    margin:0 36px 45px 36px;
+}
+
+footer{
+    font-size: 11px;
+    color:var(--color-dark-blue);
+    text-align: center;
+}
+
+@media screen and (max-width:1440px){
+    .container{
+        margin-bottom:28px;
+        
+    }
+}
